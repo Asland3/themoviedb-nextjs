@@ -1,4 +1,7 @@
-import { getMovieDetails, getSimilarMovies } from "@/app/utils/requests";
+import {
+  getMovieDetails,
+  getSimilarMovies,
+} from "@/app/services/movie-service";
 import Link from "next/link";
 
 async function MovieDetailsPage({ params }: { params: { id: string } }) {

@@ -1,5 +1,5 @@
 import Card from "./components/Card";
-import { getTrendingMovies } from "./utils/requests";
+import { getTrendingMovies } from "./services/movie-service";
 
 
 export default async function Home() {
