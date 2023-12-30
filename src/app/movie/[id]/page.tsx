@@ -53,7 +53,7 @@ async function MovieDetailsPage({ params }: { params: { id: string } }) {
         <div className="flex flex-wrap gap-3">
           {similarMovies.map((movie) => {
             return (
-              <Link key={movie.id} href={"/movies/" + movie.id}>
+              <Link key={movie.id} href={"/movie/" + movie.id}>
                 <div key={movie.id} className="col-3">
                   <img src={IMAGE_BASE_URL + movie.poster_path} />
                   <div>
