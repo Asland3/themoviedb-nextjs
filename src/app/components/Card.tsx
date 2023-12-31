@@ -2,7 +2,6 @@ import Link from "next/link";
 
 function Card(movie: Movie) {
   const IMAGE_BASE_URL = "https://www.themoviedb.org/t/p/w220_and_h330_face/";
-  console.log(movie.title)
   return (
     <div>
       <Link href={"/movie/" + movie.id}>
